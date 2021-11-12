@@ -1,1 +1,15 @@
+#include <stdio.h>
 
+int main()
+{
+    int N = 0;
+    scanf("%i", &N);
+    for (int i = 1; i < N ; i++)
+    {
+        if (i * i > N)
+        {
+            printf("%i\n", i);
+            break;
+        }
+    }
+}
